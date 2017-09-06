@@ -1,0 +1,102 @@
+Variables:
+
+Variables are used to store data by giving a name to it. variables are declared with keyword var. 
+Ex:1 var firstName = 'viswa';
+    console.log(firstName);
+output: viswa
+In above example the 'firstName' comes after var is used as a name/container to refer to the data ('viswa' is the data in this example.).
+Here console.log is used to display the data ('viswa' here) using command prompt.
+Ex:2 var age ='25';
+     console.log(age);
+output: 25
+
+Strings:
+
+A group of characters are strings.In Javascript 'strings' are primitive values, which means can reference a object. 
+
+In javascript Strings have a property --length
+
+Ex: var firstName = 'viswa';
+    var firstNameLength = firstName.length;
+    console.log(firstNameLength);
+output: 5
+Here '5' is the length of the string 'viswa'
+
+Functions:
+
+function are declared using keyword 'function'. function is used to reference a block of code or you can say 
+function is used to reference  a list of instructions. function are given a 'name' or some times there are anonymous
+function as well. 'name' of a function is used to invoke a function.
+
+Ex:
+function hello(){}
+
+above defined a function named as hello and in between curly braces code is written. 
+
+function hello(){
+ console.log('hello!');
+}
+
+hello();
+
+output: hello!
+
+Here in above code hello(); is used to invoke a function.
+
+function hello(firstName){
+     var meassage = 'Hi' + firstName;
+ console.log(message);
+}
+
+
+hello('viswa');
+hello('mani');
+
+output:  Hi Viswa
+         Hi mani
+
+In above code passing a parameter inside paranthesis (hello(parameter) ) and the arguments passed inside paranthesisinto hello('arguments') are displayed 
+in the command prompt using console.log(message);
+
+if statements:
+
+if statements are conditional like excecution of a block of code is done if condition satisfied or we can say if condition is true.
+else statement is executed if the condition is false.
+else if is like similar to if , but execution is done if above statement fails and its block of code is executed if condition is satisfed or condition is true.
+
+Ex:
+function isPrime(num) {
+if (num>1){
+    for( var i =2; i<num; i++){
+        if(num%i === 0){
+            return false;
+            }
+        }
+            return true;
+           
+        }else{
+            return false;
+  }
+} 
+
+Boolean Values:
+
+Boolean has two values True or false, we use boolean to know whether expression/ variable is true or false. we can implement boolean values on logical operators(||, &&),
+conditional statements. we have a handy boolean function in javascript.
+Ex: Boolean(1) 
+which is invoked as a function.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
